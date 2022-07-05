@@ -27,4 +27,18 @@ nav li {
 
 li a {
     all: unset;
+    transition: 400ms;
 }
+
+li a:not(.logo):hover {
+    font-size: 17px;
+    cursor: pointer;    
+}
+
+li a:active:not(.logo)  {
+    font-size: 18.5px;
+    transition: 1s;
+}
+
+/* Need to fix Header Logo shirking with another 'li a' elements */
+
