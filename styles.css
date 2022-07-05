@@ -24,3 +24,7 @@ nav li {
     margin-right: auto;
     flex-shrink: 0;
 }
+
+li a {
+    all: unset;
+}
