@@ -3,13 +3,20 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+header {
+    background-color: #1F2937;
+    width: 100%
+}
 
 nav {
     background-color: #1F2937;
     display: flex;
     gap: 2em;
     align-items: center;
-    padding: 10px 10%;
+    padding: 10px 0;
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 nav li {
@@ -30,12 +37,12 @@ li a {
     transition: 400ms;
 }
 
-li a:not(.logo):hover {
+li:not(.logo) a:hover {
     font-size: 17px;
     cursor: pointer;    
 }
 
-li a:active:not(.logo)  {
+li:not(.logo) a:active  {
     font-size: 18.5px;
     transition: 1s;
 }
