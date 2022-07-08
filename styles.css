@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 * {
@@ -217,3 +218,12 @@ main p {
     border: 2px solid white;
 }
 
+/* FOOTER SECTION */
+
+footer {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+    background-color: #1F2937;
+}
