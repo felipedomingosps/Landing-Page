@@ -118,3 +118,38 @@ main p {
     color: #3882F6;
     background-color: white;
 }
+
+/* RANDOM-INFORMATION SECTION */
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.random-information h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.random-items {
+    display: flex;
+    gap: 2em;
+}
+
+.random-img {
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.random-subtext {
+    display: block;
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+    color: #1F2937;
+}
