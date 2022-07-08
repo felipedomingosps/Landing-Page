@@ -184,3 +184,35 @@ main p {
     color: #1F2937;
     margin-left: auto;
 }
+
+/* CALL-TO-ACTION SECTION */
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    margin: 100px 0px;
+    align-items: center;
+    gap: 8em;
+    color: white;
+    border-radius: 10px;
+}
+
+.cta-left h2, .cta-left p {
+    margin: 0px;
+}
+
+.cta-left h2 {
+    margin-bottom: 0.3em;
+}
+
+* .button-signup:last-of-type {
+    border: 2px solid white;
+}
+
